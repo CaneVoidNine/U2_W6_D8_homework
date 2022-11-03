@@ -18,19 +18,27 @@
     <style>
       body {
         font-size: x-large;
+        background-color: wheat;
       }
       h2 {
         text-align: center;
         margin-block: 2rem;
+        background-color: lightsalmon;
       }
       img {
         object-fit: cover;
+      }
+      .jumbotron {
+        background-color: lightsalmon;
+      }
+      a:hover {
+        color: aqua !important;
       }
     </style>
   </head>
   <body>
     <nav
-      class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center"
+      class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center py-3 border-bottom border-dark"
     >
       <button
         class="navbar-toggler"
@@ -48,27 +56,27 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link mr-5" href="#"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Deals of the week</a>
+            <a class="nav-link mr-5" href="#deals_week">Deals of the week</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Summer</a>
+            <a class="nav-link mr-5" href="#welcome_sum">Summer</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Deal of the Day</a>
+            <a class="nav-link mr-5" href="#deal_day">Deal of the Day</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Last minute</a>
+            <a class="nav-link mr-5" href="#last_min">Last minute</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Customer reviews</a>
+            <a class="nav-link mr-5" href="#reviews">Customer reviews</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link mr-5" href="#contacter">Contact</a>
           </li>
         </ul>
       </div>
@@ -76,197 +84,170 @@
     <!-- another -->
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Fluid jumbotron</h1>
-        <p class="lead">
-          This is a modified jumbotron that occupies the entire horizontal space
-          of its parent.
+        <h1 class="display-4 mb-3">CaneNine Travel Agency</h1>
+        <p class="lead" style="font-size: xx-large">
+          Experience truly insane views and maddening places that will keep the
+          eldritch horrors u fear far away!
         </p>
       </div>
     </div>
     <!-- another -->
-    <h2>Deal of the week</h2>
-    <div class="container">
-      <div class="row justify-content-center gutter-1">
-        <div class="col-3">
-          <div class="card" style="width: 18rem">
+    <h2 id="deal_week">Deal of the week</h2>
+    <div class="container-fluid">
+      <div class="row gt-2">
+        <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-3">
+          <div class="card" style="width: 40rem">
             <img
-              src="https://content.r9cdn.net/rimg/dimg/83/d4/85f68013-city-20339-16489ec9b8b.jpg?crop=true&width=1020&height=498"
+              src="https://i0.wp.com/girleatworld.net/wp-content/uploads/2022/05/kyoto-higashiyama-disctrict-01.jpg?resize=840%2C559&ssl=1"
               class="card-img-top"
               alt="..."
             />
             <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <p class="card-text">Kyoto</p>
             </div>
           </div>
         </div>
-        <div class="col-3">
-          <div class="card" style="width: 18rem">
+        <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-3">
+          <div class="card" style="width: 40rem">
             <img
-              src="https://content.r9cdn.net/rimg/dimg/83/d4/85f68013-city-20339-16489ec9b8b.jpg?crop=true&width=1020&height=498"
+              src="https://www.visitdubai.com/-/media/gathercontent/article/t/top-tips-for-your-first-visit-in-dubai/fallback-image/new-top-tips-for-your-first-dubai-visit-hero-dtcm.jpg"
               class="card-img-top"
               alt="..."
             />
             <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <p class="card-text">Dubai</p>
             </div>
           </div>
         </div>
-        <div class="col-3">
-          <div class="card" style="width: 18rem">
+        <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-3">
+          <div class="card" style="width: 40rem">
             <img
-              src="https://content.r9cdn.net/rimg/dimg/83/d4/85f68013-city-20339-16489ec9b8b.jpg?crop=true&width=1020&height=498"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4TUO7hmMZBR7XcfSSe7YTZiw3BL6t5cTZ4g&usqp=CAU"
               class="card-img-top"
               alt="..."
             />
             <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <p class="card-text">Moon</p>
             </div>
           </div>
         </div>
-        <div class="col-3">
-          <div class="card" style="width: 18rem">
+        <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-3">
+          <div class="card" style="width: 40rem">
             <img
-              src="https://content.r9cdn.net/rimg/dimg/83/d4/85f68013-city-20339-16489ec9b8b.jpg?crop=true&width=1020&height=498"
+              src="https://kierunekalaska.pl/wp-content/uploads/2021/02/Wycieczka-Objazdowa-Alaska-.jpg"
               class="card-img-top"
               alt="..."
             />
             <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <p class="card-text">Alaska</p>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- another -->
-    <h2>Welcome Summer!</h2>
+    <h2 id="welcome_sum">Welcome Summer!</h2>
+    <div class="container-fluid mx-1">
+      <div class="row">
+        <div class="col-5 col-md-4 col-lg-3 col-xl-2 gx-5">
+          <div class="card" style="width: 21rem">
+            <img
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/01/00/2b/the-strip.jpg?w=1200&h=1200&s=1"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">Las Vegas</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-5 col-md-4 col-lg-3 col-xl-2">
+          <div class="card" style="width: 25rem">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_gacjh79tgCdXjs6evX4RLCRQPgwWesLkc6pHd1rC&s"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">Mariana Trench</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-5 col-md-4 col-lg-3 col-xl-2">
+          <div class="card" style="width: 25rem">
+            <img
+              src="https://a.cdn-hotels.com/gdcs/production33/d1957/3dca8448-04b8-41f7-9484-831ee08e0f53.jpg?impolicy=fcrop&w=800&h=533&q=medium"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">Hawaii</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-5 col-md-4 col-lg-3 col-xl-2">
+          <div class="card" style="width: 25rem">
+            <img
+              src="https://cms.finnair.com/resource/blob/829444/3523a759b61b788b834fe56aa57fa255/sydney-main-data.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">Sydney</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-5 col-md-4 col-lg-3 col-xl-2">
+          <div class="card" style="width: 25rem">
+            <img
+              src="https://assets.iflscience.com/assets/articleNo/64689/aImg/58923/void-in-space-meta.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">Void Beyond Time and Space</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-5 col-md-4 col-lg-3 col-xl-2">
+          <div class="card" style="width: 25rem">
+            <img
+              src="http://urbnews.pl/wp-content/uploads/2014/06/Detroit-USA2.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">Detroit</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- another -->
+    <h2 id="deal_day">Deal of the Day</h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-7 col-lg-2 col-md-10 col-12">
+          <img
+            style="width: 100rem; height: 50rem; border: solid 1px red"
+            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/97b9dd0f-da25-446d-bc9d-6462796e41b8/d8airqn-e5018a96-fa90-41bb-9b9a-c1b59d3347eb.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzk3YjlkZDBmLWRhMjUtNDQ2ZC1iYzlkLTY0NjI3OTZlNDFiOFwvZDhhaXJxbi1lNTAxOGE5Ni1mYTkwLTQxYmItOWI5YS1jMWI1OWQzMzQ3ZWIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Xt7m4qTASIRFd3tt90BP0dlkfX-juW-u4tLPkKMLHnY"
+          />
+        </div>
+        <div class="col-5 d-flex align-self-center justify-self-center">
+          <p style="font-size: xx-large" class="mx-2">
+            The nightmare corpse-city of R'lyeh...was built in measureless eons
+            behind history by the vast, loathsome shapes that seeped down from
+            the dark stars. There lay great Cthulhu and his hordes, hidden in
+            green slimy vaults.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- another -->
+    <h2 id="last_min">Last minute!</h2>
     <div class="container">
       <div class="row">
-        <div class="col-">
-          <div class="card" style="width: 18rem">
-            <img
-              src="https://content.r9cdn.net/rimg/dimg/83/d4/85f68013-city-20339-16489ec9b8b.jpg?crop=true&width=1020&height=498"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="">
-          <div class="card" style="width: 18rem">
-            <img
-              src="https://content.r9cdn.net/rimg/dimg/83/d4/85f68013-city-20339-16489ec9b8b.jpg?crop=true&width=1020&height=498"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="">
-          <div class="card" style="width: 18rem">
-            <img
-              src="https://content.r9cdn.net/rimg/dimg/83/d4/85f68013-city-20339-16489ec9b8b.jpg?crop=true&width=1020&height=498"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="">
-          <div class="card" style="width: 18rem">
-            <img
-              src="https://content.r9cdn.net/rimg/dimg/83/d4/85f68013-city-20339-16489ec9b8b.jpg?crop=true&width=1020&height=498"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="">
-          <div class="card" style="width: 18rem">
-            <img
-              src="https://content.r9cdn.net/rimg/dimg/83/d4/85f68013-city-20339-16489ec9b8b.jpg?crop=true&width=1020&height=498"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="">
-          <div class="card" style="width: 18rem">
-            <img
-              src="https://content.r9cdn.net/rimg/dimg/83/d4/85f68013-city-20339-16489ec9b8b.jpg?crop=true&width=1020&height=498"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- another -->
-    <h2>Deal of the Day</h2>
-    <div class="row">
-      <div class="col-8">
-        <img
-          src="https://content.r9cdn.net/rimg/dimg/83/d4/85f68013-city-20339-16489ec9b8b.jpg?crop=true&width=1020&height=498"
-        />
-      </div>
-      <div class="col-4">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi pariatur
-          et nemo quidem in, laboriosam blanditiis sunt omnis deleniti!
-          Inventore maiores fugit hic mollitia deleniti deserunt maxime, optio
-          illum dolore!
-        </p>
-      </div>
-    </div>
-    <!-- another -->
-    <h2>Last minute!</h2>
-    <div class="container">
-      <div class="row">
-        <div class="col-3">
+        <div class="col-xl-3 col-md-10 col-12">
           <div class="card" style="width: 18rem">
             <img
               src="https://content.r9cdn.net/rimg/dimg/83/d4/85f68013-city-20339-16489ec9b8b.jpg?crop=true&width=1020&height=498"
@@ -328,18 +309,38 @@
         </div>
       </div>
     </div>
-    <h2>Reviews from our Customers</h2>
+    <h2 id="reviews">Reviews from our Customers</h2>
     <div class="container">
       <ul class="list-group">
-        <li class="list-group-item">An item</li>
-        <li class="list-group-item">A second item</li>
-        <li class="list-group-item">A third item</li>
-        <li class="list-group-item">A fourth item</li>
-        <li class="list-group-item">And a fifth one</li>
+        <li class="list-group-item">
+          Best travelling agency I encountered preety Poggers if i can say so
+          myself. - <span style="color: lightcoral">Mark</span>
+        </li>
+        <li class="list-group-item">
+          Everything planned as intended and cheap too! -
+          <span style="color: lightcoral">Daniel</span>
+        </li>
+        <li class="list-group-item">
+          Cahf ah nafl mglw'nafh hh' ahor syha'h ah'legeth, ng llll or'azath
+          syha'hnahh n'ghftephai n'gha ahornah ah'mglw'nafh. -
+          <span style="color: lightcoral">Hastur The Yellow King</span>
+        </li>
+        <li class="list-group-item">
+          Went better than expected even managed to visit my family in
+          (*redacted*) -
+          <span style="color: lightcoral">Snake</span>
+        </li>
+        <li class="list-group-item">
+          My dreams finally came true , i never expected to see so many
+          beautifull places! - <span style="color: lightcoral">Sandra</span>
+        </li>
       </ul>
     </div>
     <!-- another -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav
+      id="contacter"
+      class="navbar navbar-expand-lg navbar-light bg-light py-3 border-top border-dark mt-5"
+    >
       <button
         class="navbar-toggler"
         type="button"
@@ -351,7 +352,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#"><i class="fas fa-caravan"></i></a>
+      <a class="navbar-brand ml-5" href="#"><i class="fas fa-caravan"></i></a>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -364,8 +365,12 @@
             <a class="nav-link" href="#"></a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+        <form class="form-inline mr-5 my-lg-0">
+          <button
+            class="btn btn-outline-danger my-2 my-sm-0"
+            type="submit"
+            style="height: 4rem; width: 10rem"
+          >
             Contact Us
           </button>
         </form>
